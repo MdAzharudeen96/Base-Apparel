@@ -1,0 +1,136 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body{
+    /* height: 1440px; */
+    width: 100%;
+    background-image: url("images/bg-pattern-desktop.svg");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: hsl(0, 36%, 70%);
+}
+
+main{
+    padding:0;
+}
+
+.container{
+    padding:50px;
+}
+.log-container{
+    /* padding: 10px; */
+    width: 50%;
+    margin: 0;
+}
+
+.log-container .logo{
+    width: 250px;
+}
+
+.log-container .logo img{
+    /* padding-left: 0; */
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.main-container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.main-container .container{
+    /* display: flex;
+    flex-direction: column; s
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%; */
+    text-align: left;
+    margin-right: 100px;
+    flex: 10 5 70%;
+    order:-1; /*doubt*/
+    margin-left: 200px;
+}
+
+.main-container .container h1{
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    margin: 40px 0 16px 0;
+   
+}
+
+.main-container .container span{
+    color: black;
+    font-size: 75px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-weight: bold; /*doubt*/
+}
+
+.main-container .container p{
+    color: hsl(0, 36%, 70%);
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 3rem;
+    margin-top: 40px;
+}
+
+.main-container .container .input{
+    width: 80%;
+    display: flex;
+    position: relative;
+    margin-bottom: 15.52px;
+}
+
+.main-container .container .input .email{
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: 1px solid hsl(0, 36%, 70%);
+    border-radius: 18px;
+}
+
+.main-container .container .input .email::placeholder{
+    color: hsl(0, 93%, 68%);
+    font-size: 15px;
+
+}
+
+.main-container .container .input .btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  border-radius: 20px;
+  padding: 0.5rem 2.5rem;
+  background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  box-shadow: 1px 3px 20px #ee8c8c;
+}
+
+/* .btn{
+    position: absolute;
+} */
+
+.main-container .hero-img{
+    order: 1;
+    width: 100%;
+    height: 817px;
+}
+
+.main-container .hero-img img{
+    width: 100%;
+    height: 817px;
+    background-attachment: fixed;
+}
